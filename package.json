@@ -1,0 +1,24 @@
+{
+  "name": "eleventy-hide-and-seek",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npm-run-all --parallel dev:*",
+    "dev:clean": "rm -rf dist",
+    "dev:start": "eleventy --serve",
+    "build": "npm-run-all prod:*",
+    "prod:clean": "rimraf dist",
+    "prod:build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Leatherman <dleatherman@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0-beta.3",
+    "clean-css": "^4.2.3",
+    "html-minifier": "^4.0.0",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2"
+  }
+}
