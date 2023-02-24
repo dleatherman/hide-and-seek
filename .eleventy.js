@@ -3,8 +3,8 @@ const { DateTime, Duration } = require("luxon");
 const htmlmin = require("html-minifier");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/images");
-  eleventyConfig.addPassthroughCopy('js');
+  eleventyConfig.addPassthroughCopy('src/images');
+  eleventyConfig.addPassthroughCopy('src/serviceworker.js');
 
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
 
