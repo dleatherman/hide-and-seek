@@ -132,10 +132,6 @@ main {
   justify-content: center;
   padding: 0;
 }
-main > *:not(.display, article),
-main > article > *:not(.display) {
-  max-width: 80ch;
-}
 
 a {
   color: rgb(var(--color-accent));
