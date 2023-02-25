@@ -3,7 +3,7 @@
   "short_name": "Hide & Seek",
   "theme_color": "#ccc",
   "background_color": "#fff",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "any",
   "scope": "/",
   "start_url": "/",

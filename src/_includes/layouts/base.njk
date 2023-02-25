@@ -11,10 +11,11 @@
   <title>{{ title or renderData.title or site.title }} | {{ site.title }}</title>
 
 
-  <link rel="manifest" href="manifest.json" />
   <link rel="icon" href="/images/favicon.png" />
   <link rel="apple-touch-icon" href="/images/favicon.png" />
   <link rel="icon" href="/images/favicon.ico" />
+
+  <link rel="manifest" href="/manifest.json" />
 
   {% set css %}
     {% include "css/normalize.css" %}
