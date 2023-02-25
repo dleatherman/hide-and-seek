@@ -5,6 +5,7 @@ const htmlmin = require("html-minifier");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/images');
   eleventyConfig.addPassthroughCopy('src/serviceworker.js');
+  eleventyConfig.addPassthroughCopy('src/manifest.json');
 
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
 
